@@ -1,16 +1,23 @@
 header{
-	background-color: white;
-	color: black;
+	background-color: AntiqueWhite;
+	color: MidnightBlue;
 	font-size: 150%;
 	font-family: cursive;
 	font-style: italic;
 	text-align: center;
+	padding-top: 2rem;
+	padding-right: 4rem;
+	padding-bottom: 1.5rem;
+	padding-left: 2rem;
 }
 footer{
-	background-color: blue;
-	color: white;
+	background-color: AntiqueWhite;
+	color: black;
 	font-family: Arial;
-	font-size: 150%;
+	text-align: center;
+	font-size: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 main{
 	font-family: Arial;
@@ -20,9 +27,16 @@ a{
 	color: black;
 	font-family: Arial;
 	font-size: 120%;
-	text-align: left;
+	text-align: center-left;
+	text-decoration: none;
 }
 h2{
+	text-align: center;
+}
+tr{
+	text-align: centre;
+}
+td{
 	text-align: center;
 }
 #totop {
