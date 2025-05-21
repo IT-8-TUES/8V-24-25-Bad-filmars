@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 header{
 	background-color: AntiqueWhite;
 	color: MidnightBlue;
@@ -23,6 +26,15 @@ main{
 	font-family: Arial;
 	font-size: 125%;
 }
+.price-tag {
+    font-size: 100%;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
+p{
+	font-family: Arial;
+}
 a{
 	color: black;
 	font-family: Arial;
@@ -32,6 +44,7 @@ a{
 }
 h2{
 	text-align: center;
+	font-style: italic;
 }
 tr{
 	text-align: centre;
