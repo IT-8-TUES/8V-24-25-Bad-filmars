@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+  .price-tag {
+    font-size: 100%;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
+header{
+	background-color: AntiqueWhite;
+	color: MidnightBlue;
+	font-size: 150%;
+	font-family: cursive;
+	font-style: italic;
+	text-align: center;
+	padding-top: 2rem;
+	padding-right: 4rem;
+	padding-bottom: 1.5rem;
+	padding-left: 2rem;
+}
+footer{
+	background-color: AntiqueWhite;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	font-size: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+main{
+	font-family: Arial;
+	font-size: 125%;
+}
+a{
+	color: black;
+	font-family: Arial;
+	font-size: 120%;
+	text-align: center-left;
+	text-decoration: none;
+}
+h2{
+	text-align: center;
+}
+tr{
+	text-align: centre;
+}
+td{
+	text-align: center;
+}
+#totop {
+    display: inline-block;
+    background-color: LightGray;
+    color: black;
+    width: 6.3em;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 5.9em;
+    right: .3em;
+    visibility: hidden;
+    text-decoration: none;
+    z-index: 1000;
+    cursor: pointer;
+    transition: all .5s;
+}
