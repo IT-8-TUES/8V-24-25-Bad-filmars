@@ -6,6 +6,35 @@
 </head>
 <body>
     <header>
+	<script>
+	function toggleRegister() {
+    var win = document.getElementById("registerWindow");
+    if (win.style.display === "none") {
+      win.style.display = "block";
+    } else {
+      win.style.display = "none";
+    }
+  }
+</script>
+<div class="razpolojenie">
+  <button onclick="toggleRegister()" class="register-btn">
+    👤 Registration
+  </button>
+  <button class="cart-btn"><a href="..\Kaloyan Karakachanov\Cart.html">
+    🛒 Cart
+	</a>
+  </button>
+</div>
+<div id="registerWindow" class="register-window">
+  <h3>Registration</h3>
+  <form>
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+    <button type="submit">Register!</button>
+  </form>
+</div>
 	    <img align="left" src="final_final_logo.png"></img>
         <h1> Sports products Filmars Athletes </h1>
 		<div align="right" class="topnav">

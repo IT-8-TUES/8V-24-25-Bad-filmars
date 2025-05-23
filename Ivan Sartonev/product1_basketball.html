@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports products Filmars Athletes</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+	<div class="razpolojenie">
+  <button onclick="toggleRegister()" class="register-btn">
+    👤 Registration
+  </button>
+  <button class="cart-btn"><a href="..\Kaloyan Karakachanov\Cart.html">
+    🛒 Cart
+	</a>
+  </button>
+</div>
+<div id="registerWindow" class="register-window">
+  <h3>Registration</h3>
+  <form>
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+    <button type="submit">Register!</button>
+  </form>
+</div>
+<script>
+  function toggleRegister() {
+    var win = document.getElementById("registerWindow");
+    if (win.style.display === "none") {
+      win.style.display = "block";
+    } else {
+      win.style.display = "none";
+    }
+  }
+</script>
+	    <img align="left" src="final_final_logo.png"></img>
+        <h1> Sports products Filmars Athletes </h1>
+		<div align="right" class="topnav">
+		<br>
+            <a class="active" href="..\Ivan Sartonev\Glavna_stranica.html">Home&nbsp;&nbsp;&nbsp;</a>
+            <a href="#products">Products&nbsp;&nbsp;&nbsp;</a>
+            <a href="#contacts">Contact</a>
+        </div>
+    </header>
+	<hr>
+	<main id="products">
+		<!--<table style="width:90%">
+		<tr>
+		    <td>
+			    <img src="..\Ivan Sartonev\product1_basketball.png"></img>
+			</td>
+			<td>
+		            <h3 class="title">Basketball ball</h3>
+					<p>Adidas Basketball ball for all court -<br>
+					inside and outside.<br>
+					The size is size 7.</p> 
+					<p class="price-tag">Price: $28</p>
+		        </a>
+			</td>
+		</tr>
+		</table>-->
+		<div class="container">
+            <div class="item"><img src="..\Ivan Sartonev\product1_basketball.png"></img></div>
+            <div class="item">
+			        <h3 class="title">Basketball ball</h3>
+					<p>Adidas Basketball ball for all court - inside and outside. The size  of the ball is size 7.</p> 
+					<p class="price-tag">Price: $28</p>
+			</div>
+        </div>
+	</main>
+	<hr>
+    <footer id="contacts">
+		<a style="color: MidnightBlue" href="Tel: +359 889 234 567">Tel: +359 889 234 567</a> <br>
+		<a style="color: MidnightBlue" href="mailto:badfilmars@gmail.com">badfilmars@gmail.com</a> <br>
+		<a style="color: MidnightBlue" href="instagram:bad_filmars_products">instagram:bad_filmars_products</a> <br>
+		<a style="color: MidnightBlue" href="facebook:bad_filmars_products">facebook:bad_filmars_products</a> <br>
+		<br>
+		Author: Bad Filmars <br>
+		&copy; Copyright Reserved
+    </footer>
+	<div id="tt" aria-hidden="true"><a href="#" onclick="totop()" id="totop" rel="nofollow" style="visibility: visible;">Back to Top</a></div>
+</body>
+</html>
+
+
