@@ -1,6 +1,58 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
+header{
+	background-color: AntiqueWhite;
+	color: MidnightBlue;
+	font-size: 150%;
+	font-family: cursive;
+	font-style: italic;
+	text-align: center;
+	padding-top: 2rem;
+	padding-right: 4rem;
+	padding-bottom: 1.5rem;
+	padding-left: 2rem;
+}
+footer{
+	background-color: AntiqueWhite;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	font-size: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+main{
+	font-family: Arial;
+	font-size: 125%;
+}
+.price-tag {
+    font-size: 100%;
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
+p{
+	font-family: Arial;
+	text-align: center;
+}
+a{
+	color: black;
+	font-family: Arial;
+	font-size: 120%;
+	text-align: center-left;
+	text-decoration: none;
+}
+h2{
+	text-align: center;
+	font-style: italic;
+}
+tr{
+	text-align: centre;
+}
+td{
+	text-align: center;
+}
 .razpolojenie {
   position: absolute;
   top: 10px;
@@ -29,68 +81,57 @@ html {
   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
   z-index: 1000;
 }
-  
-  header{
-      background-color: AntiqueWhite;
-      color: MidnightBlue;
-      font-size: 150%;
-      font-family: cursive;
-      font-style: italic;
-      text-align: center;
-      padding-top: 2rem;
-      padding-right: 4rem;
-      padding-bottom: 1.5rem;
-      padding-left: 2rem;
-  }
-  footer{
-      background-color: AntiqueWhite;
-      color: black;
-      font-family: Arial;
-      text-align: center;
-      font-size: 100%;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-  }
-  main{
-      font-family: Arial;
-      font-size: 125%;
-  }
-  a{
-      color: black;
-      font-family: Arial;
-      font-size: 120%;
-      text-align: center-left;
-      text-decoration: none;
-  }
-  h2{
-      text-align: center;
-  }
-  tr{
-      text-align: centre;
-  }
-  td{
-      text-align: center;
-  }
-  #totop {
-      display: inline-block;
-      background-color: LightGray;
-      color: black;
-      width: 6.3em;
-      height: 50px;
-      line-height: 50px;
-      text-align: center;
-      position: fixed;
-      bottom: 5.9em;
-      right: .3em;
-      visibility: hidden;
-      text-decoration: none;
-      z-index: 1000;
-      cursor: pointer;
-      transition: all .5s;
-  }
-  .price-tag {
-    font-size: 100%;
+#totop {
+    display: inline-block;
+    background-color: LightGray;
+    color: black;
+    width: 6.3em;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 5.9em;
+    right: .3em;
+    visibility: hidden;
+    text-decoration: none;
+    z-index: 1000;
+    cursor: pointer;
+    transition: all .5s;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background: white;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	padding-right: 35%;
+	padding-left: 15%;
+    gap: 5%;
+}
+		
+.item {
+    width: 5%;
+    height: 5%;
+    background: green;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5%;
+    font-size: 110%;
     font-weight: bold;
-    color: green;
-    margin-top: 10px;
+}
+.add_cart{
+    background-color: #3535cc;
+    color: white;
+    padding: 0.75rem 1.875rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 100%;
 }
