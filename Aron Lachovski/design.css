@@ -98,33 +98,6 @@ td{
     cursor: pointer;
     transition: all .5s;
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    background: white;
-	padding-top: 7%;
-	padding-bottom: 7%;
-	padding-right: 35%;
-	padding-left: 15%;
-    gap: 5%;
-}
-		
-.item {
-    width: 5%;
-    height: 5%;
-    background: green;
-    color: black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 5%;
-    font-size: 110%;
-    font-weight: bold;
-}
 .add_cart{
     background-color: #3535cc;
     color: white;
