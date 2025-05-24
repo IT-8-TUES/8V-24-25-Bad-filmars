@@ -46,29 +46,29 @@
     </header>
 	<hr>
 	<main id="products">
-		<!--<table style="width:90%">
+		<table style="width:90%">
 		<tr>
 		    <td>
-			    <img src="..\Ivan Sartonev\product1_basketball.png"></img>
+			    <img align="right" src="..\Ivan Sartonev\product1_basketball.png"></img>
 			</td>
 			<td>
-		            <h3 class="title">Basketball ball</h3>
-					<p>Adidas Basketball ball for all court -<br>
+		            <h3 class="product_title">Basketball</h3>
+					<p class="product_description">Adidas Basketball for all courts -<br>
 					inside and outside.<br>
-					The size is size 7.</p> 
+					Size 7</p> 
 					<p class="price-tag">Price: $28</p>
-		        </a>
+					<button class="add_cart" onclick="AddToCart()">Add to cart</button>
+					<script>
+                        function AddToCart() {
+                            window.location.href = '../Kaloyan Karakachanov/Cart.html'
+							let cart = parseInt(localStorage.getItem('cart') || '0');
+                            cart++;
+                            localStorage.setItem('cart', cart);
+                        }
+                    </script>
 			</td>
 		</tr>
-		</table>-->
-		<div class="container">
-            <div class="item"><img src="..\Ivan Sartonev\product1_basketball.png"></img></div>
-            <div class="item">
-			        <h3 class="title">Basketball ball</h3>
-					<p>Adidas Basketball ball for all court - inside and outside. The size  of the ball is size 7.</p> 
-					<p class="price-tag">Price: $28</p>
-			</div>
-        </div>
+		</table>
 	</main>
 	<hr>
     <footer id="contacts">
