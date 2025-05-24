@@ -49,12 +49,29 @@
 		<table style="width:90%">
 		<tr>
 		    <td>
-			    <img align="right" src="..\Ivan Sartonev\product1_basketball.png"></img>
+			    <!--<img align="right" src="..\Ivan Sartonev\product1_basketball1.png"></img>-->
+				<img id="slideshow" src="product1_basketball1.png">
+				<script>
+				  const images = [
+					"product1_basketball1.png",
+					"product1_basketball2.png",
+					"product1_basketball3.png",
+					"product1_basketball4.png"
+				  ];
+
+				  let index = 0;
+				  const interval = 3000;
+
+				  setInterval(() => {
+					index = (index + 1) % images.length;
+					document.getElementById("slideshow").src = images[index];
+				  }, interval);
+				</script>
 			</td>
 			<td>
 		            <h3 class="product_title">Basketball</h3>
 					<p class="product_description">Adidas Basketball for all courts -<br>
-					inside and outside.<br>
+					indoor and outdoor.<br>
 					Size 7</p> 
 					<p class="price-tag">Price: $28</p>
 					<button class="add_cart" onclick="AddToCart()">Add to cart</button>
