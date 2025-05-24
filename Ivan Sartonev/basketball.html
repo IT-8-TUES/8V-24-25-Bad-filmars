@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports products Filmars Athletes</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+	<div class="razpolojenie">
+  <button onclick="toggleRegister()" class="register-btn">
+    👤 Registration
+  </button>
+  <button class="cart-btn"><a href="..\Kaloyan Karakachanov\Cart.html">
+    🛒 Cart
+	</a>
+  </button>
+</div>
+<div id="registerWindow" class="register-window">
+  <h3>Registration</h3>
+  <form>
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+    <button type="submit">Register!</button>
+  </form>
+</div>
+<script>
+  function toggleRegister() {
+    var win = document.getElementById("registerWindow");
+    if (win.style.display === "none") {
+      win.style.display = "block";
+    } else {
+      win.style.display = "none";
+    }
+  }
+</script>
+	    <img align="left" src="final_final_logo.png"></img>
+        <h1> Sports products Filmars Athletes </h1>
+		<div align="right" class="topnav">
+		<br>
+            <a class="active" href="..\Ivan Sartonev\Glavna_stranica.html">Home&nbsp;&nbsp;&nbsp;</a>
+            <a href="#products">Products&nbsp;&nbsp;&nbsp;</a>
+            <a href="#contacts">Contact</a>
+        </div>
+    </header>
+	<hr>
+	<main>
+	    <h2 id="products">Filmars like basketball </h2><br>
+		<p>Basketball is more than just a game - it's a fast-paced sport that combines skill, teamwork, and passion. <br>
+		Played and loved around the globe, it brings people together on courts big and small. <br>
+		Whether you're a player, a fan, or just getting started, this is the place, at Filmars Athletes, <br>
+		to celebrate the spirit of basketball by supporting athletes with <br>
+		top-quality sports products designed for performance and durability.
+		</p><br>
+	    <hr>
+		<br>
+		<table style="width:100%">
+		<tr>
+		    <td>
+			    <a href="..\Ivan Sartonev\product1_basketball.html">
+		            <img src="..\Ivan Sartonev\product1_basketball1.png"></img>
+		            <h3 class="title">Basketball</h3>
+					<p class="price-tag">Price: $28</p>
+		        </a>
+			</td>
+			<td>
+			    <a href="..\Ivan Sartonev\product2_basketball.html">
+		            <img src="..\Ivan Sartonev\product2_basketball1.png"></img>
+		            <h3 class="title">Mini hoop</h3>
+					<p class="price-tag">Price: $39.99</p>
+		        </a>
+			</td>
+		</tr>
+		<tr>
+		    <td>
+			    <a href="..\Ivan Sartonev\product3_basketball.html">
+		            <img src="..\Ivan Sartonev\product3_basketball1.png"></img>
+		            <h3 class="title">Under Armour shoes</h3>
+					<p class="price-tag">Price: $79.99</p>
+		        </a>
+			</td>
+			<td>
+			    <a href="..\Ivan Sartonev\product4_basketball.html">
+		            <img src="..\Ivan Sartonev\product4_basketball1.png"></img>
+		            <h3 class="title">Nike elite bag</h3>
+					<p class="price-tag">Price: $87</p>
+		        </a>
+			</td>
+		</tr>
+		</table>
+	</main>
+	<hr>
+    <footer id="contacts">
+		<a style="color: MidnightBlue" href="Tel: +359 889 234 567">Tel: +359 889 234 567</a> <br>
+		<a style="color: MidnightBlue" href="mailto:badfilmars@gmail.com">badfilmars@gmail.com</a> <br>
+		<a style="color: MidnightBlue" href="instagram:bad_filmars_products">instagram:bad_filmars_products</a> <br>
+		<a style="color: MidnightBlue" href="facebook:bad_filmars_products">facebook:bad_filmars_products</a> <br>
+		<br>
+		Author: Bad Filmars <br>
+		&copy; Copyright Reserved
+    </footer>
+	<div id="tt" aria-hidden="true"><a href="#" onclick="totop()" id="totop" rel="nofollow" style="visibility: visible;">Back to Top</a></div>
+</body>
+</html>
+
+

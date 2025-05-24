@@ -53,22 +53,6 @@ header{
       font-size: 16px;
       margin-bottom: 40px;
     }
-
-    .btn {
-      background-color: #3535cc;
-      color: white;
-      padding: 12px 30px;
-      border: none;
-      border-radius: 3px;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 14px;
-      transition: background-color 0.3s ease;
-    }
-
-    .btn:hover {
-      background-color: #2a2aa0;
-    }
 }
 .register-window {
   display: none;
@@ -133,4 +117,69 @@ td{
     z-index: 1000;
     cursor: pointer;
     transition: all .5s;
+}
+
+
+.btn {
+  background-color: #3535cc;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2a2aa0;
+}
+.empty-cart-container {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.empty-cart-container h1 {
+    font-size: 26px;
+    margin-bottom: 16px;
+    color: #111;
+}
+
+.empty-cart-container p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 32px;
+}
+
+.empty-cart-container .btn {
+    background-color: #3535cc;
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.empty-cart-container .btn:hover {
+    background-color: #2a2aa0;
+}
+
+.btn-delete {
+  background-color: #3535cc;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }

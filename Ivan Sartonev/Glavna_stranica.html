@@ -6,11 +6,40 @@
 </head>
 <body>
     <header>
-	    <img align="left" src="C:\Ivan\Ivan School\8 klas\it\Proekt\final_final_logo.png"></img>
+	<div class="razpolojenie">
+  <button onclick="toggleRegister()" class="register-btn">
+    👤 Registration
+  </button>
+  <button class="cart-btn"><a href="..\Kaloyan Karakachanov\Cart.html">
+    🛒 Cart
+	</a>
+  </button>
+</div>
+<div id="registerWindow" class="register-window">
+  <h3>Registration</h3>
+  <form>
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+    <button type="submit">Register!</button>
+  </form>
+</div>
+<script>
+  function toggleRegister() {
+    var win = document.getElementById("registerWindow");
+    if (win.style.display === "none") {
+      win.style.display = "block";
+    } else {
+      win.style.display = "none";
+    }
+  }
+</script>
+	    <img align="left" src="final_final_logo.png"></img>
         <h1> Sports products Filmars Athletes </h1>
 		<div align="right" class="topnav">
 		<br>
-            <a class="active" href="Glavna_stranica.html">Home&nbsp;&nbsp;&nbsp;</a>
+            <a class="active" href="..\Ivan Sartonev\Glavna_stranica.html">Home&nbsp;&nbsp;&nbsp;</a>
             <a href="#products">Products&nbsp;&nbsp;&nbsp;</a>
 			<a href="#sponsors">Sponsor&nbsp;&nbsp;&nbsp;</a>
             <a href="#contacts">Contact</a>
@@ -22,27 +51,27 @@
 		<table style="width:100%">
 		<tr>
 		    <td>
-			    <a href="Basketball.html">
-		            <img src="C:\Ivan\Ivan School\8 klas\it\Proekt\basketball.png"></img>
+			    <a href="..\Ivan Sartonev\Basketball.html">
+		            <img src="..\Ivan Sartonev\basketball.png"></img>
 		            <h3 class="title">Basketball</h3>
 		        </a>
 			</td>
 		    <td>
-			    <a href="Football.html">
-		            <img src="C:\Ivan\Ivan School\8 klas\it\Proekt\football.png"></img>
+			    <a href="..\Kaloyan Karakachanov\Football.html">
+		            <img src="..\Ivan Sartonev\football.png"></img>
 		            <h3 class="title">Football</h3></td>
 		        </a>
 			</td>
 		    <td>
-			    <a href="Kickbox.html">
-		            <img src="C:\Ivan\Ivan School\8 klas\it\Proekt\kickbox.png"></img>
+			    <a href="..\Aron Lachovski\Kickbox.html">
+		            <img src="..\Ivan Sartonev\kickbox.png"></img>
 		            <h3 class="title">Kickbox</h3></td>
 		        </a>
 			</td>
 		</tr>
 		</table>
 		<h2 id="sponsors"> Sponsors </h2>
-		<img src="C:\Ivan\Ivan School\8 klas\it\Proekt\puma.png"></img><img src="C:\Ivan\Ivan School\8 klas\it\Proekt\nike.png"></img><img src="C:\Ivan\Ivan School\8 klas\it\Proekt\adidas.png"></img><img src="C:\Ivan\Ivan School\8 klas\it\Proekt\under_armour.png"></img>
+		<img src="..\Ivan Sartonev\puma.png"></img><img src="..\Ivan Sartonev\nike.png"></img><img src="..\Ivan Sartonev\adidas.png"></img><img src="..\Ivan Sartonev\under_armour.png"></img>
 	</main>
 	<hr>
     <footer id="contacts">
