@@ -134,3 +134,13 @@ td{
     cursor: pointer;
     transition: all .5s;
 }
+.add_cart{
+    background-color: #3535cc;
+    color: white;
+    padding: 0.75rem 1.875rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 100%;
+}
